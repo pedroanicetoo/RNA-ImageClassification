@@ -54,7 +54,7 @@ imgs, labels = next(train_batches)
 plots(imgs, titles = labels)
 
 
-#primeira camada(Flatten) tranforma a matriz 48x48
+#primeira camada(Flatten) transforma a matriz 48x48
 #primeira camada(Dense) tem 512 neuronios
 #A segunda camada softmax com 6 nodos - isto retorna um vetor com 6 valores de probabilidade que soma 1
 #Cada no contem o valor que indica a probabilidade que a image atual pertence a uma das 6 classes.
